@@ -1,6 +1,10 @@
-creo una primera línea en archivo_a.txt
+creo una primera línea en archivo_a.txt	// Este texto hasta HEAD está en las dos ramas
 Creo una segunda línea en el archivo_a.txt
-tercera línea en el archivo_a
+<<<<<<< HEAD 	// Aquí se inició la rama testing
+tercera línea en el archivo_a	// Este texto, hasta === es lo que contiene la rama master
 Ya que estoy lanzado, creo una cuarta línea
 Añadido un hotfix desde su rama
 Sigo editando el archivo desde master
+=======		// Como no sabe donde meterla, añade el nuevo texto de testing al final
+Añado una línea desde la rama testing
+>>>>>>> testing		// Final del texto de la rama testing
